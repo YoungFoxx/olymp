@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset='utf-8'>
+      <link rel="stylesheet" href="css/style.css">
+      <title>Главная</title>
+</head>
+<body>
+
+      <div id='up'>
+	  <div id='telefon'>
+	  <p class='ty'>Закажите</p>
+	  <p class='tyy'>Обратный звонок</p>
+	  <p class="text9">Ежедневно с 09:00 до 21:00</p>
+	  <p class='t8'>+7 (863) 309-11-89 </p>
+	  <p class="text91">Бесплатный звонок по РФ</p>
+	  <p class='t81'>8 (800) 333-80-02 </p>
+	  </div>
+	  <div>
+	  <p class="text8">Ежедневно с 09:00 до 21:00</p>
+	  <p class='t7'>+7 (863) 309-11-89 <img src='Images/ico-phone.png' width='35px'></p>
+	  </div>
+	 
+	 <div id='ok' class='ee'>
+	 <a href="">О компании</a><br>
+	 <a href="">Контакты</a>
+	 </div>
+	 
+	  <div id='do' class='ee'>
+	 <a href="">Доставка</a><br>
+	 <a href="">Оплата</a>
+	  </div>
+	  
+	  <div id='gp' class='ee'>
+	 <a href="">Гарантия и возврвт</a><br>
+	 <a href="">Программа лояльности</a>
+	  </div>
+	  
+	  <div id='ky' class='ee1'>
+	 <a href="">Корпоративным клиентам</a><br>
+	 <a href="">Узнать статус заказа</a>
+	  </div>
+	  
+	  </div>
+	  
+	  <div id='logo'>
+	  
+	      <input type="button" id="exit" value="&#215;" />
+
+          <script>
+          document.getElementById('exit').onclick = function() {
+          document.getElementById('logo').hidden = true;}
+          </script>
+		  
+		  <p class='text6'>СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ<br>БЕСПЛАТНАЯ ДОСТАВКА ЗАКАЗОВ ОТ 20000 РУБЛЕЙ ПО ВСЕЙ РФ*</p>
+		  <a class='t6'style='font: 16px Fregat, sans-serif;' href="">Читать далее</a>
+	  </div>
+	  
+	<div id='poisk'>	
+	
+	       <i class="arrow right"></i>
+		   
+	       <div class='pin'><img src='Images/Group_12.svg'></div>
+
+           <div id="left1">
+	  
+             <form>
+                  <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Поиск по странице.." title="Введите категорию">				  
+             </form>
+           </div>		   
+	</div>
+	  
+
+<div id="wrap">
+
+	  <div id='left-menu' class="category-wrap">
+	  
+	 <h3>ВЕСЬ КАТАЛОГ</h3>
+  <ul>
+    <li><a href="">Кардиотренажеры</a></li>
+    <li><a href="">Тренажеры и фитнеc</a></li>
+    <li><a href="">Спорт</a></li>
+    <li><a href="">Активный отдых</a></li>
+    <li><a href="">Здоровье</a></li>
+	<li><a href="">Игры</a></li>
+	<li><a href="">Детское</a></li>
+	<li style='border-bottom:none;'><a style='font-weight: 600; color: #ff4e00;' href="">Скидки 50% - 90% <img src="Images/ico-flag.png"></a></li>
+  </ul>
+	  
+	  </div>	
+	  
+	  <div id='reklama' class="slider">
+	  
+			
+               <input type="radio" name="switch" id="btn1"checked>
+               <input type="radio" name="switch" id="btn2">
+               <input type="radio" name="switch" id="btn3">
+			   <input type="radio" name="switch" id="btn4">
+			   <input type="radio" name="switch" id="btn5">
+			   <input type="radio" name="switch" id="btn6">
+			   <input type="radio" name="switch" id="btn7">
+			   <input type="radio" name="switch" id="btn8">
+			   
+			        <div class="switch" id='one'>
+			
+                         <label for="btn1"></label>
+                         <label for="btn2"></label>
+						 <label for="btn3"></label>
+						 <label for="btn4"></label>
+						 <label for="btn5"></label>
+						 <label for="btn6"></label>
+						 <label for="btn7"></label>
+						 <label for="btn8"></label>
+			   
+                     </div>
+  
+                     <div class="slider-inner" id='two'>
+                     <div class="slides">
+			
+                         <a href=><img src="Images/reklama.jpg"/></a>
+                         <a href=><img src="Images/reklama2.jpg"/></a>
+                         <a href=><img src="Images/reklama3.jpg"/></a>
+						 <a href=><img src="Images/reklama4.jpg"/></a>
+						 <a href=><img src="Images/reklama5.jpg"/></a>
+						 <a href=><img src="Images/reklama6.jpg"/></a>
+						 <a href=><img src="Images/reklama7.jpg"/></a>
+						 <a href=><img src="Images/reklama8.jpg"/></a>
+						 
+                     </div>
+                     </div> 
+</div>	
+</div>
+
+<p class="text">Интернет-магазин спортивных товаров «Олимпиец»</p>  
+<p  style="padding-top: 25px" class="text">Популярные категории</p>
+<p  class="text2">Новинки, акции, популярное</p> 
+   
+	  <div id='kategory'>	
+	  
+	  <table class="table1">
+	  
+      <tr>
+      <td> <div class='p'><a href=""><p class='t'>Эллиптические<br>тренажеры</p><img src="Images/k1.jpg"></a></div></td>
+	  <td colspan="3"><div class='p'><a href=""><p class='t'>Беговые дорожки</p><p class='t2'>Комфорт вне зависимости от погоды за окном</p><img src="Images/begdorozhki.jpg" ></a> </div> </td>
+	  <td rowspan="2"><div class='p'><a href=""><p class='t'>Турник-брусья-<br>пресс</p><img src="Images/turniki.jpg"></a></div> </td> 	  
+      </tr>
+	  
+      <tr>  
+      <td><div class='p'><a href=""><p class='t'>Мултистанции</p><img src="Images/multistancii.jpg"></a></div></td>
+	  <td><div class='p'><a href=""><p class='t'>Крути педали дома</p><p class='t2'>Велотренажеры</p><img src="Images/k2.jpg"></a></div></td>
+	  <td rowspan="2"><div class='p'><a href=""><p class='t'>Инверсионные<br>столы</p> <p class='t1'>Повисим вниз головой?</p><img src="Images/invers.jpg"></a></div></td>
+	  <td><div class='p'><a href=""><img src="Images/zhelezho.jpg"><p class='t'>Железо</p><p class='t2'>гантели, грифы и штанги, диски,<br>гири</p></a></div></td>
+      </tr>	 
+
+      <tr>  
+      <td colspan="2"><div class='p'><a href=""><p class='t'>Скамьи и стойки</p><p class='t2'>Более 300 моделей по отличным ценам!</p><img src="Images/skami.jpg"></a></div> </td>
+	  <td><div class='p'><a href=""><p class='t'>Фитнес, аэробика,<br>пилатес</p><p class='t1'>Все что нужно в одном месте!</p><img src="Images/stepplatformy.jpg"></a></div></td>
+	  <td><div class='p'><a href=""><p class='t'>Чтобы не<br>расслабляться</p><p class='t1'>Все для настольного тенниса</p><img src="Images/k3.jpg"></a></div></td>
+      </tr>	 	  
+      </table>  
+	  
+	  </div>	  
+	  
+<p class="text">Падение цен</p>  	
+<p  class="text2">Самые «вкусные» предложения</p> 
+  
+	  <div id='hity-prodaj'>
+	  
+	  <table class="table">
+	  
+      <tr>
+      <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	 </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td> 
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>	  
+      </tr>
+	  
+      <tr>  
+      <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+	  <td class="td2">
+	  <div class='hp'>
+	     <img src='Images/0e4ee5e6-6fdb-11e0-a576-00e04cff6f38_bfc2ad2e-4b67-11e1-93a8-00155d000a00.jpeg'>
+	     <p class='text5'>21 351 руб.</p>
+	     <a href="" style='font: 15px Fregat, sans-serif;  font-weight: 500' onmouseover="this.style.color='red'" onmouseout="this.style.color='#0C759D'">Теннисный стол Start Line<br>Olympic Outdoor с сеткой</a>
+	     <p class="text3">Код:001004</p>
+	     <a href="" class="but">В корзину</a>
+	 </div>
+	 <div class='diskont'>
+	 <p>-11%</p>
+	 </div>
+	  </td>
+      </tr>	 
+	  
+      </table>  
+	  
+	  </div>
+
+	  <div id='preimyshestva1'>
+	  
+	  <table class="table">
+	  
+      <tr>
+      <td class="td3"><img src='Images/b1.png' width='80' height='89'></td>
+	  <td class="td3"><p class="text3">Оперативная доставка<br>вашего заказа</p></td>
+	  <td class="td3"><img src='Images/b2.png' width='80' height='89'></td>
+	  <td class="td3"><p class="text3">Большое количество<br>пунктов выдачи</p></td>
+	  <td class="td3"><img src='Images/b3.png' width='80' height='89'></td> 
+	  <td class="td3"><p class="text3">Покупка в рассрочку или кредит</p></td>
+	  <td class="td3"><img src='Images/b4.png' width='80' height='89'></td> 
+	  <td class="td3"><p class="text3">50 000 товаров<br>в ассортименте</p></td>
+      </tr>
+
+      </table>
+	  
+	  </div>	  
+	  
+	    <hr width="92%" size="2" color="#B4B4B4"/> 
+			
+	  <div id='preimyshestva2'>
+	  <br>
+	  	  <table align='center'>
+	  
+      <tr>
+      <td class="vl" width='170' align="center" valign="bottom"><img src='Images/pvz.png'><p class="text4">1560 пунктов выдачи заказов<br>по всей РФ</p></td>
+	  <td class="vl" width='170' align="center" valign="bottom"><img src='Images/satisfied-customer.png'><p class="text4">1 214 586<br>довольных клиентов</p></td>
+	  <td class="vl" width='170' align="center" valign="bottom"><img src='Images/7-days.png'><p class="text4">Работаем<br>7 дней в неделю</p></td> 
+	  <td class="vl" width='170' align="center" valign="bottom"><img src='Images/box.png'><p class="text4">50 000 товаров<br>на складе</p></td>
+	  <td width='170' align="center" valign="bottom"><img src='Images/shield.png'><p class="text4">12 лет<br>на онлайн-рынке</p></td> 	  
+      </tr> 
+
+      </table>
+	  
+	  </div>
+
+	  <div id='podval'>
+	  
+	  <br>
+	  
+	                  <h4><p align='center'>© ООО «Олимпиец», 2021</p></h4>
+				
+               <p align='center'>
+			   
+	                <a href="" title="facebook"><img src="images/facebook.png" width="32" height="32" alt="facebook" title="facebook" class="social"></a>	
+                    <a href="" title="telegram"><img src="images/telegram.png" width="30" height="30" alt="telegram" title="telegram" class="social"></a>		
+                    <a href="" title="youtube"> <img src="images/youtube.png" width="32" height="32" alt="youtube" title="youtube" class="social"></a>
+                    <a href="" title="instagram"> <img src="images/instagram.png" width="32" height="32" alt="instagram" title="instagram" class="social"></a>
+                    <a href="" title="whatsapp"> <img src="images/whatsapp.png" width="32" height="32" alt="whatsapp" title="whatsapp" class="social"></a>					              
+			  </p>
+			  
+              <p align='center'>ОГРН 1115476034783, ИНН 5408286690</p>  
+	  
+	  </div>	  
+</body>
